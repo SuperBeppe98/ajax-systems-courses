@@ -1,0 +1,139 @@
+- Webinar certificativo base per gli installatori professionisti
+
+- Per effettuare il test si utilizza la stessa email per la registrazione
+- E' possibile effettuare il test per un massimo di 3 volte durante una settimana, in caso di necessità di ulteriori test è possibile contattare il supporto tecnico
+
+- Vendite Ajax:
+    - oltre 160 paesi
+    - 650000 unità di produzione mensile
+    -2620 persone del team di cui 636 impiegate su ricerca e sviluppo
+    - 2 headquarter: in Polonia e Turchia
+    - 4 sedi produttive
+    - 1843000 centrali in cloud
+    - è possibile installarlo su imbarcazioni o siti mobili
+    - usato da 750 istituti di vigilanza
+
+- I due protocolli sono:
+    - Jeweller con portata a 2000 metri
+    - Wings con portata a 1700 metri
+- Sono protocolli crittografati
+- Regolazione automatica del consumo energetico: se faccio un test di portata, prima effettuo il test di attenuazione del segnale ( in modalità attenuazione) e poi il test intensità del segnale di Jeweller
+
+- Due applicazioni:  
+    - Ajax Pro nera
+    - Ajax Utenti bianca
+    - Per aggiungere altri installatori da Ajax Pro, l'installatore deve andare su installatori -> aziende -> invitare altri installatori
+    - Se devo aggiungere un utente da Ajax Utenti, devo andare su utenti -> invitare un utente
+    - Se c'è un installatore amministratore, con o senza impostazioni di sistema e rendete un utente admin da 8 ore, gli utenti Pro devono chiedere l'accesso all'utente admin amministratore
+
+- Gamma di prodotti
+    - Centrali di prima generazione non gestiscono la fotoverifica, l'hub 2 di seconda generazione gestisce la fotoverifica
+        - Scheda di rete presente su tutti i modelli e due slot per le sim
+        - Hub 2 ha due modelli rispettivamente 2g e 4g; invece hub2 plus ha solo il modello 4g
+    - 8 dispositivi da interno
+    - Motion Protect, Motion Protect Plus
+    - Motioncam e Motion Protect Curtain
+    - Door Protect e Door Protect Plus 
+        - Tutti e due con contatti magnetici
+        - Dispongono di un ingresso ausiliario per allarmi esterni
+        - Door Protect Plus ha la funzione lenta MA DISPONE ANCHE DI impulsi tapparella
+    - Glass Protect e Combi Protect
+        - Glass Protect è un microfono da posizionare di fronte alla vetrata da proteggere
+        - Combi Protect combina un microfono e una fotocamera combipir a doppia tecnologia
+        - Glass Protect ha solo vibrazione e non onde 
+    - Sicurezza da esterno
+        - Motion Protect outdoor, Motioncam outdoor
+            - Dispongono di una visione a 90 gradi
+            - E' possibile mascherare con nastro isolante le lenti per evitare eccessiva sensibilità o raggio di rilevamento
+            - Le parti zigrinate e nere implementano l'anti mascheramento attivo e non vanno coperte
+        - Dual Curtain outdoor
+            - Non è compatibile con l'hub base
+            - 2 PIR a destra e due a sinistra
+            - Portata 12+12 metri
+    - Tutti i dispositivi dopo il giugno 2021 non vanno con l'hub base versione 1
+    - Sirene
+        - Homesiren 
+            - Sirena da interno
+            - Consigliata per daltonici e non vedenti dual buzzer
+        - StreetSiren 
+            - Sirena da esterno
+        - StreetSiren Doubledeck
+        - Brandplate
+            - Brandizzabile da ajax con almeno 40 ordini di sirene
+    - Rilevatori di fumo
+        - FireProtect
+            - Termovelocimetrico con sensore di temperatura 
+        - FireProtect Plus
+            - Stesse funzionalità del modello base
+            - In aggiunta rileva anche il monossido di carbonio
+    - Anti allagamento
+        - LeaksProtect
+    - Automazione
+        - Socket
+        - Wall Switch
+        - Relay
+    - Moduli di integrazione:
+        - Permettono di integrare altri prodotti di terze parti
+        - Transmitter
+        - Multitransmitter
+            - Fino a 18 ingressi
+    - Controlli e pulsanti antipanico
+        - Telecomando
+        - Tastiere
+            - Keypad
+            - Keypad Plus
+    - 3 tipi di alimentatori
+        - 1 per centrale di prima generazione
+        - 2 per centrali di seconda generazione
+- Calcolo stima del consumo della centrale
+    - Dal sito https://support.ajax.systems/it/how-long-operate-from-batteries/
+- Calcolo della portata di comunicazione Ajax
+    - Dal sito https://ajax.systems/it/radio-range/
+- Rex e Rex2
+    - Rex non ripete i sensori con fotocamera
+    - Rex2 va solo su Hub 2 o 2 Plus e può ripetere ANCHE i sensori con fotocamera
+    - Rex2 si può collegare anche all'Hub 2 tramite il cavo Ethernet
+- Passaggi installazione nuovo hub
+    - Installazione da nuovo collegando Ethernet e alimentazione
+    - L'utente compare su installatori -> aziende
+    - E' necessario creare almeno una stanza
+- Nuovi prodotti
+    - Life Quality
+        - temperatura, umidità e co2
+- App
+    - Notifiche
+    - Possibilità di creare uno scenario, commutare un'uscita
+    - Come arruolare i dispositivi
+        -  Aggiungere dispositivo
+        -  Dare un nome, una stanza e l'area, il suo qr
+        -  Il dispositivo deve essere spento prima dell'aggiunta
+- Test della zona di rilevamento valido per tutti i sensori di movimento
+    - Il led rimane fisso e se rileva un movimento si spegne e si riaccende successivamente
+- Parametri della centrale
+    - Impossibile caricare utenti normali nella sezione installatori aziende
+    - Admin senza impostazioni di sistema può creare utenti normali e impostare le notifiche
+    - Gestore della privacy serve un utente che ha impostazioni di privacy
+    - Utente normale ha privacy, bisogna attivare la spunta superiore e poi vedere chi abilitare, se stessi e anche gli altri
+    - Rete cellulare:
+        - Selezionare l'APN giusto, e spuntare ignora errore di registrazione alla rete e disattiva il controllo della comunicazione con l'operatore
+        - Se si usano operatori virtuali usare il roaming
+        - Codici di accesso tastiera, si può usare da 4 a 6 cifre
+        - Aree: si possono creare aree, per esempio casa, ufficio, ecc
+            - Prima si creano e poi si aggiungono i dispositivi
+            - Se un utente ha sottoaree il suo inserimento agisce solo sulle aree di sua competenza
+            - Si può associare il telecomando a un utente con delle sottoaree per farlo agire solo su quelle sottoaree
+            - La modalità notturna agisce sempre su tutte le aree (macroarea)
+    - Parametro Jeweller: quanto è il tempo minimo di ping tra un rilevatore e centrale 12 secondi
+    - Quand'è l'intervallo minimo di ping mancato per determinare l'errore di connessione: 3 * 12 secondi = 36 secondi
+    - Servizio: connessione al server, stessi parametri, alive 10 secondi, ritardo dell'allarme è minimo di 30 secondi
+        - Il default è : 60 secondi, 200 secondi
+        - Disconnessioni dalle 2 alle 3 dei transponder per sim quindi si imposta 400 secondi di allarme
+        - Si possono disattivare gli allarmi per perdita di connessione
+    - Verifica dell'integrità del sistema:
+        - Su Jeweller è disabilitata di default, perchè altrimenti si può inserire con zone aperte
+        - Con l'integrità abilitata non si può inserire con zone aperte e compare un avviso di errore, è necessario ripremere entro 10 secondi per confermare
+    - Geofence: impostare un raggio d'azione, se si esce dal raggio d'azione si riceve una notifica per abilitare l'allarme e viceversa
+    - Importazione dati:
+        - Copiare i dati dall'hub A all'hub B, processo di migrazione, si importa dati DALL'HUB B ALL'HUB A NON IL VICEVERSA
+    - Azienda: webinar a parte, si crea azienda, poi installatori poi impianti  
+        - Possibilità di migrare da un sito a una azienda
