@@ -51,7 +51,7 @@ Webinar certificativo avanzato per gli installatori professionisti
 - Per installare l'hub ibrido serve un account PRO verificato
 - Se il test di alimentazione fallisce, controllare la corrente di alimentazione
 
-![migrazione](/Corso%20Avanzato%20Fibra%20Ajax/migrazione.png)
+![migrazione](/[Corso%20Avanzato%20Fibra%20Ajax/migrazione.png](https://github.com/superbeppe98/ajax-systems-courses/blob/main/corso-avanzato-fibra/migrazione.png))
 
 - Installazione dei rilevatori di terze parti su DoorProtect la lunghezza del cavo fino al rilevatore deve essere di 2 metri e 15kOhm di resistenza massima del contatto chiuso
 - Almeno 10 cm di distanza tra un magnete esterno e il rilevatore
